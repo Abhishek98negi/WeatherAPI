@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Weather App</title>
+        <style>
+            body {background-color: powderblue;}
+
+            form{
+                text-align: center;
+                margin-top: 300px;
+            }
+            input[type=text] {
+                width:30%;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                background-color: white;
+                background-position: 10px 10px;
+                padding-left: 10px;
+            }
+            button[type=submit] {
+                height: 45px;
+                width:70px;
+              background-color: #2e8691;
+              color: white;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              border-radius: 4px;
+                font-size: 100%;
+            }
+            button[type=submit]:hover {
+              background-color: #28747e;
+            }
+            .display-4{
+                color: #28747e;
+                font-size: 150%;
+            }
+            #cityInput{
+                font-size:18px;
+
+                color:#2e8691;
+
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <form action="/" method="post">
+            <label for="cityInput" class="display-4">City Name: </label>
+            <input  id="cityInput" type="text" name="cityName" required>
+            <button  type="submit" name="button">Go</button>
+        </form>
+
+
+
+    </body>
+</html>

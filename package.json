@@ -1,0 +1,17 @@
+{
+  "name": "weatherapi-main",
+  "version": "1.0.0",
+  "description": "It shows the current temperature and weather of a cty, state or country we want to search.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
